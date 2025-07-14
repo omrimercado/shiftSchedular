@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "839935396449",
+    "firebase_url": "https://myprogram-712f2-default-rtdb.firebaseio.com",
+    "project_id": "myprogram-712f2",
+    "storage_bucket": "myprogram-712f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839935396449:android:7fdd1b75d3481585a4b820",
+        "android_client_info": {
+          "package_name": "com.example.shiftscheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839935396449-vupi55ijq6k4ep3qr5424u11eeffdhfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shiftscheduler",
+            "certificate_hash": "f866d5c9c8e2c84eadd93b2f241317937a24dd14"
+          }
+        },
+        {
+          "client_id": "839935396449-6s3s0lfja0401gasmkjk59cn1jcd1jop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTVzcsguO3Nfd4WR4ZP0Q0NNuO8wrUj2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839935396449-6s3s0lfja0401gasmkjk59cn1jcd1jop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

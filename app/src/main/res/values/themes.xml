@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ShiftScheduler" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+
+    <style name="Widget.App.NavButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/nav_button</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:insetLeft">16dp</item>
+        <item name="android:insetRight">16dp</item>
+    </style>
+
+    <!-- Action buttons: filled primary background -->
+    <style name="Widget.App.ActionButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/action_button</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:insetLeft">16dp</item>
+        <item name="android:insetRight">16dp</item>
+    </style>
+</resources>

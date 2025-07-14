@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <!-- User identifier -->
+    <TextView
+        android:id="@+id/tvAssignedUserId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="user@example.com"
+        android:textSize="16sp" />
+
+    <!-- Arrived checkbox -->
+    <CheckBox
+        android:id="@+id/cbArrived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrived"
+        android:textSize="14sp"/>
+</LinearLayout>

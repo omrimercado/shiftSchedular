@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time" />
+
+    <TextView
+        android:id="@+id/tvRequired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Required: " />
+
+    <TextView
+        android:id="@+id/tvAssigned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assigned: " />
+
+    <TextView
+        android:id="@+id/tvFullShift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full: " />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnUpdateShift"
+            android:text="Update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/btnToggleFullShift"
+            android:text="Toggle Full"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/btnConfirmArrival"
+            android:text="Confirm Arrival"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+</LinearLayout>

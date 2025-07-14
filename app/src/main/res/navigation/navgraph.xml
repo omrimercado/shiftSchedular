@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.shiftscheduler.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_adminDashbordFragment2"
+            app:destination="@id/adminDashbordFragment2" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_workerDashboardFragment"
+            app:destination="@id/workerDashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.shiftscheduler.fragments.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_workerDashboardFragment"
+            app:destination="@id/workerDashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.shiftscheduler.fragments.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersListFragment"
+        android:name="com.example.shiftscheduler.fragments.UsersListFragment"
+        android:label="fragment_users_list"
+        tools:layout="@layout/fragment_users_list" />
+    <fragment
+        android:id="@+id/adminDashbordFragment2"
+        android:name="com.example.shiftscheduler.fragments.AdminDashbordFragment"
+        android:label="fragment_admin_dashbord"
+        tools:layout="@layout/fragment_admin_dashbord" >
+        <action
+            android:id="@+id/action_adminDashbordFragment2_to_usersListFragment"
+            app:destination="@id/usersListFragment" />
+        <action
+            android:id="@+id/action_adminDashbordFragment2_to_adminShiftManageFragment"
+            app:destination="@id/adminShiftManageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/adminShiftManageFragment"
+        android:name="com.example.shiftscheduler.fragments.AdminShiftManageFragment"
+        android:label="fragment_admin_shift_manage"
+        tools:layout="@layout/fragment_admin_shift_manage" />
+    <fragment
+        android:id="@+id/workerDashboardFragment"
+        android:name="com.example.shiftscheduler.fragments.WorkerDashboardFragment"
+        android:label="WorkerDashboardFragment" >
+        <action
+            android:id="@+id/action_workerDashboardFragment_to_monthlyReportFragment"
+            app:destination="@id/monthlyReportFragment" />
+        <action
+            android:id="@+id/action_workerDashboardFragment_to_userShiftsFragment"
+            app:destination="@id/userShiftsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/monthlyReportFragment"
+        android:name="com.example.shiftscheduler.fragments.MonthlyReportFragment"
+        android:label="MonthlyReportFragment" />
+    <fragment
+        android:id="@+id/userShiftsFragment"
+        android:name="com.example.shiftscheduler.fragments.UserShiftsFragment"
+        android:label="UserShiftsFragment" />
+</navigation>

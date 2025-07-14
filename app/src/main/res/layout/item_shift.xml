@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvReportDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: 2025-07-12"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvReportTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time: 10:00 - 14:00"
+        android:textSize="14sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvReportDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration: 4 hours"
+        android:textSize="14sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvReportSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salary: ₪120"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+</LinearLayout>
