@@ -3,6 +3,34 @@
 An Android app for managers to create and confirm work shifts, and for employees to claim, track and report their hours. Built in **Java**, with **Firebase Auth (email/password)** and **Cloud Firestore**.
 
 ---
+## 📊 Project Logic
+
+![Overall app flow](docs/ProjectLogic.png)
+
+Below is a high-level view of how users move through the app, and what each dashboard exposes:
+
+1. **Login / Register**  
+   - On success you check `users/{uid}.admin`  
+     - **If admin →** Admin Dashboard  
+     - **If non-admin →** Worker Dashboard  
+
+2. **Worker Dashboard**  
+   - **Upcoming Shifts**  
+     - Assign / Unassign  
+     - View shift details (date, time)  
+   - **Pay Slip**  
+     - Shift history  
+     - Salary report  
+
+3. **Admin Dashboard**  
+   - **Shifts**  
+     - Close  
+     - Update  
+   - **Users**  
+     - Update salary  
+     - Delete user  
+     - View shifts list  
+---
 
 ## 📋 Table of Contents
 
@@ -117,5 +145,5 @@ An Android app for managers to create and confirm work shifts, and for employees
 
 ---
 ## 📸 Screenshots
-<p float="left"> <img src="docs/welcome.png" width="200"/> <img src="docs/worker_dashboard.png" width="200"/> <img src="docs/admin_dashboard.png" width="200"/> <img src="docs/monthly_report.png" width="200"/> </p>
+<p float="left"> <img src="docs/welcome.png" width="200"/><img src="docs/monthly_report.jpg" width="200"/><img src="docs/admin_shifts.jpg" width="200"/> <img src="docs/admin_users.jpg" width="200"/> <img src="docs/worker_shifts.jpg" width="200"/></p>
 
