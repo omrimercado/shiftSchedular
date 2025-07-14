@@ -145,5 +145,12 @@ Below is a high-level view of how users move through the app, and what each dash
 
 ---
 ## 📸 Screenshots
-<p float="left"> <img src="docs/welcome.png" width="200"/><img src="docs/monthly_report.jpg" width="200"/><img src="docs/admin_shifts.jpg" width="200"/> <img src="docs/admin_users.jpg" width="200"/> <img src="docs/worker_shifts.jpg" width="200"/></p>
+
+| Welcome                  | Monthly Report         | Admin: Shifts           |
+|:------------------------:|:----------------------:|:-----------------------:|
+| ![Welcome](docs/welcome.jpg) | ![Monthly Report](docs/monthly_report.jpg) | ![Admin Shifts](docs/admin_shifts.jpg) |
+
+| Admin: Users             | Worker: Shifts         |                         |
+|:------------------------:|:----------------------:|:-----------------------:|
+| ![Admin Users](docs/admin_users.jpg) | ![Worker Shifts](docs/worker_shifts.jpg) |                         |
 
